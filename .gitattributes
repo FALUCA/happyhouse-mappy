@@ -1,0 +1,13 @@
+# happyhouse-mappy | Classificação de linguagens
+
+/index.html linguist-language=HTML
+/index.html linguist-detectable=true
+/index.html linguist-generated=false
+
+# Excluir arquivos de estilo e scripts das estatísticas
+*.css linguist-detectable=false
+*.js linguist-detectable=false
+
+# Arquivos de documentação e testes
+/docs/** linguist-documentation
+/tests/** linguist-detectable=false
